@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background: url('images/K9U7nx.jpg');  
+}
+
+textarea {
+  background: transparent;
+  resize: none;
+  color: black;
+  border: 1px solid black;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  margin: -65px;
+  padding: auto -10px;
+}
+
+h1, #currentDay {
+  font-family: 'Press Start 2P';
+}
+
+.row {
+  height: 80px;
+  justify-content: center;
+}
+
+.hour {
+  background-color: black;
+  color: white;
+  justify-self: left;
+  padding-top: 20px;
+}
+
+.past {
+  background-color: white;
+  color: white;
+}
+
+.present {
+  background-color: red;
+  color: white;
+}
+
+.future {
+  background-color: green;
+  color: white;
+}
+
+.saveBtn {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.planner-container {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 20px auto;
+  opacity: 95%;
+  justify-content: center;
+}
